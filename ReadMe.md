@@ -37,16 +37,22 @@ cd price_tracker_project
 ```
 
 ⚙️ Automatic Scheduling
+
 Setting Up Automatic Price Checks
 The application can be set to run automatically and check prices on a schedule:
 
-bash
+```bash
 python setup_schedule.py
+```
+
 Default Schedule:
+
 Platform	Schedule	Time
 Windows	Every Monday	9:00 PM via Task Scheduler
 Linux/macOS	Every Monday	9:00 AM via cron job
+
 Customizing the Schedule
+
 Edit setup_schedule.py to change the schedule frequency:
 
 python
@@ -55,6 +61,7 @@ python
 
 # For Linux/macOS - Change cron schedule
 "0 9 * * *"  # Daily at 9 AM instead of weekly
+
 Permissions Required:
 Platform	Permissions
 Windows	Run as Administrator for Task Scheduler setup
