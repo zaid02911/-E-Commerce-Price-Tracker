@@ -1,0 +1,38 @@
+{
+    "instant-gaming":{
+        "price":{
+         "tag":"meta",
+         "value":"price"
+        },
+        "stock":{
+            "tag":"meta",
+            "value":"availability"
+        }
+    },
+    "eneba":{
+        "price":{
+         "tag" :"script",
+         "name":"application/ld+json",
+         "value":"price"   
+        },
+        "stock":{
+         "tag" :"script",
+         "name":"application/ld+json",
+         "value":"availability" 
+        }
+        
+    },
+    "ivory":{
+        "price":{
+         "tag" :"script",
+         "name":"application/ld+json",
+         "value":"price"   
+        },
+        "stock":{
+         "tag" :"script",
+         "name":"application/ld+json",
+         "value":"availability" 
+        }
+    }
+
+}

@@ -1,0 +1,31 @@
+# PSEUDOCODE - E-COMMERCE PRICE TRACKER
+
+# 1. PRODUCT MANAGEMENT
+#    - Add products to track (URL, name, target price)
+#    - Store product information
+#    - Organize by categories
+
+# 2. WEB SCRAPING ENGINE
+#    For each product:
+#    a. Fetch product page
+#    b. Extract current price using selectors
+#    c. Extract product name/availability
+#    d. Handle different websites 
+
+# 3. DATA STORAGE SYSTEM
+#    - Store prices in SQLite database
+#    - Track price history over time
+#    - Store product details
+#    - Query for price trends
+
+# 4. ALERT SYSTEM
+#    - Check if price dropped below target
+#    - Send notifications (console)
+#    - Track when last alert was sent
+
+
+
+# 6. SCHEDULING
+#    - Run price checks automatically
+#    - Configurable check frequency
+#    - Background operation

@@ -1,0 +1,22 @@
+# Core dependencies
+selenium>=4.15.0
+beautifulsoup4>=4.12.0
+requests>=2.31.0
+pandas>=2.1.0
+plyer>=2.1.0
+
+# Data handling
+openpyxl>=3.1.0
+lxml>=4.9.0
+
+# Optional: For better web scraping
+webdriver-manager>=4.0.0
+fake-useragent>=1.4.0
+
+# Optional: For price parsing
+price-parser>=1.0.0
+
+# Development dependencies (optional)
+pytest>=7.4.0
+black>=23.0.0
+flake8>=6.0.0
