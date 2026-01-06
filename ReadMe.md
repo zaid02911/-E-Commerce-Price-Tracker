@@ -34,3 +34,29 @@ A powerful, automated price tracking system that monitors product prices across 
 ```bash
 git clone <repository-url>
 cd price_tracker_project
+```
+
+⚙️ Automatic Scheduling
+Setting Up Automatic Price Checks
+The application can be set to run automatically and check prices on a schedule:
+
+bash
+python setup_schedule.py
+Default Schedule:
+Platform	Schedule	Time
+Windows	Every Monday	9:00 PM via Task Scheduler
+Linux/macOS	Every Monday	9:00 AM via cron job
+Customizing the Schedule
+Edit setup_schedule.py to change the schedule frequency:
+
+python
+# For Windows - Change from WEEKLY to DAILY
+"/SC", "DAILY",
+
+# For Linux/macOS - Change cron schedule
+"0 9 * * *"  # Daily at 9 AM instead of weekly
+Permissions Required:
+Platform	Permissions
+Windows	Run as Administrator for Task Scheduler setup
+Linux/macOS	Standard user permissions for cron jobs
+<div align="center"> ✨ <strong>Happy Price Tracking!</strong> ✨ </div>
